@@ -1,0 +1,4 @@
+// Azure resource activity by operation
+AzureActivity
+| summarize OperationCount = count() by OperationNameValue
+| order by OperationCount desc

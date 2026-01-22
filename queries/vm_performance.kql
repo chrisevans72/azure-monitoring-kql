@@ -1,0 +1,5 @@
+// Average CPU utilization per VM
+Perf
+| where ObjectName == "Processor" and CounterName == "% Processor Time"
+| summarize AvgCPU = avg(CounterValue) by Computer
+| order by AvgCPU desc

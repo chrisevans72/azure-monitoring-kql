@@ -1,0 +1,4 @@
+// Application request count by operation
+requests
+| summarize RequestCount = count() by operation_Name
+| order by RequestCount desc
