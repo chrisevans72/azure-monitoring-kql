@@ -10,3 +10,7 @@ and Log Analytics to analyze application performance and infrastructure health.
 - Real-world KQL patterns
 
 ## Project structure
+## Future improvements
+- Add alerting queries
+- Create dashboard-ready visualizations
+- Include KQL examples for Azure Functions and App Services
